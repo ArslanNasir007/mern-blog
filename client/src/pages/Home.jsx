@@ -23,7 +23,7 @@ useEffect(() => {
 
   return (
     <div>
-      <div className="flex flex-col gap-6 p-28 px-3 max-w-6xl mx-auto">
+      <div className="flex flex-col gap-6 p-28 px-3 max-w-7xl mx-auto">
         <h1 className="text-3xl font-bold lg:text-6xl">Welcome to Arslan Blog</h1>
         <p className="text-gray-500 text-xs sm:text-sm">Here you will find a variety of articles and tutorials on topics such as
           web development, software engineering, and programming languages.</p>
@@ -31,7 +31,7 @@ useEffect(() => {
         View all articles
       </Link>
       </div>
-      <div className="p-3 bg-amber-100 dark:bg-slate-700">
+      <div className="p-3 max-w-7xl bg-amber-100 dark:bg-slate-700">
         <CallToAction />
       </div>
       <div className="max-w-7xl mx-auto p-3 flex flex-col gap-8 py-7">
